@@ -44,7 +44,7 @@
             // btn_add
             // 
             this.btn_add.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btn_add.Location = new System.Drawing.Point(12, 489);
+            this.btn_add.Location = new System.Drawing.Point(12, 486);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(53, 50);
             this.btn_add.TabIndex = 0;
@@ -60,13 +60,13 @@
             this.lst_usrVar.Location = new System.Drawing.Point(3, 3);
             this.lst_usrVar.Name = "lst_usrVar";
             this.lst_usrVar.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.lst_usrVar.Size = new System.Drawing.Size(992, 427);
+            this.lst_usrVar.Size = new System.Drawing.Size(871, 313);
             this.lst_usrVar.TabIndex = 1;
             // 
             // btn_remove
             // 
             this.btn_remove.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btn_remove.Location = new System.Drawing.Point(71, 489);
+            this.btn_remove.Location = new System.Drawing.Point(71, 486);
             this.btn_remove.Name = "btn_remove";
             this.btn_remove.Size = new System.Drawing.Size(53, 50);
             this.btn_remove.TabIndex = 2;
@@ -77,7 +77,7 @@
             // btn_revert
             // 
             this.btn_revert.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_revert.Location = new System.Drawing.Point(1019, 489);
+            this.btn_revert.Location = new System.Drawing.Point(899, 486);
             this.btn_revert.Name = "btn_revert";
             this.btn_revert.Size = new System.Drawing.Size(67, 50);
             this.btn_revert.TabIndex = 3;
@@ -87,12 +87,15 @@
             // 
             // tab
             // 
+            this.tab.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tab.Controls.Add(this.tabpg_usr);
             this.tab.Controls.Add(this.tabpg_sys);
             this.tab.Location = new System.Drawing.Point(12, 13);
             this.tab.Name = "tab";
             this.tab.SelectedIndex = 0;
-            this.tab.Size = new System.Drawing.Size(1006, 462);
+            this.tab.Size = new System.Drawing.Size(957, 450);
             this.tab.TabIndex = 4;
             this.tab.Selected += new System.Windows.Forms.TabControlEventHandler(this.tab_Selected);
             // 
@@ -102,7 +105,7 @@
             this.tabpg_usr.Location = new System.Drawing.Point(4, 25);
             this.tabpg_usr.Name = "tabpg_usr";
             this.tabpg_usr.Padding = new System.Windows.Forms.Padding(3);
-            this.tabpg_usr.Size = new System.Drawing.Size(998, 433);
+            this.tabpg_usr.Size = new System.Drawing.Size(877, 319);
             this.tabpg_usr.TabIndex = 0;
             this.tabpg_usr.Text = "User";
             this.tabpg_usr.UseVisualStyleBackColor = true;
@@ -113,7 +116,7 @@
             this.tabpg_sys.Location = new System.Drawing.Point(4, 25);
             this.tabpg_sys.Name = "tabpg_sys";
             this.tabpg_sys.Padding = new System.Windows.Forms.Padding(3);
-            this.tabpg_sys.Size = new System.Drawing.Size(998, 433);
+            this.tabpg_sys.Size = new System.Drawing.Size(949, 421);
             this.tabpg_sys.TabIndex = 1;
             this.tabpg_sys.Text = "System";
             this.tabpg_sys.UseVisualStyleBackColor = true;
@@ -126,20 +129,20 @@
             this.lst_sysVar.Location = new System.Drawing.Point(3, 3);
             this.lst_sysVar.Name = "lst_sysVar";
             this.lst_sysVar.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.lst_sysVar.Size = new System.Drawing.Size(992, 427);
+            this.lst_sysVar.Size = new System.Drawing.Size(943, 415);
             this.lst_sysVar.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1098, 551);
+            this.ClientSize = new System.Drawing.Size(978, 548);
             this.Controls.Add(this.tab);
             this.Controls.Add(this.btn_revert);
             this.Controls.Add(this.btn_remove);
             this.Controls.Add(this.btn_add);
             this.Name = "Form1";
-            this.Text = "Path Edit v1.0";
+            this.Text = "Path Edit v1.1";
             this.tab.ResumeLayout(false);
             this.tabpg_usr.ResumeLayout(false);
             this.tabpg_sys.ResumeLayout(false);
