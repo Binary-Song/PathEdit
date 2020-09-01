@@ -54,7 +54,7 @@
             this.lst_value.ItemHeight = 15;
             this.lst_value.Location = new System.Drawing.Point(12, 12);
             this.lst_value.Name = "lst_value";
-            this.lst_value.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
+            this.lst_value.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.lst_value.Size = new System.Drawing.Size(1006, 379);
             this.lst_value.TabIndex = 1;
             // 
