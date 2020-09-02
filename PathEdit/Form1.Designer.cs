@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btn_add = new System.Windows.Forms.Button();
             this.lst_usrVar = new System.Windows.Forms.ListBox();
             this.btn_remove = new System.Windows.Forms.Button();
@@ -141,6 +142,7 @@
             this.Controls.Add(this.btn_revert);
             this.Controls.Add(this.btn_remove);
             this.Controls.Add(this.btn_add);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Path Edit v1.2";
             this.tab.ResumeLayout(false);
