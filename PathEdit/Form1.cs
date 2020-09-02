@@ -14,7 +14,10 @@ using System.Security.Permissions;
 namespace PathEdit
 { 
     public partial class Form1 : Form
-    { 
+    {
+        [DllImport("MsgSend.dll")]
+        static extern void CallSendMessage();
+         
         public Form1()
         {
             InitializeComponent();
@@ -25,11 +28,8 @@ namespace PathEdit
 
             savedUsrVar.ForEach(v => lst_usrVar.Items.Add(v));
             savedSysVar.ForEach(v => lst_sysVar.Items.Add(v)); 
-
-           
         }
-
-        // 
+         
 
         /// <summary>
         /// the old user PATH var
@@ -114,7 +114,8 @@ namespace PathEdit
                 else
                 {
                     Registry.CurrentUser.OpenSubKey(@"Environment", true).SetValue("Path", rawValue); 
-                } 
+                }
+                CallSendMessage();
             }
             catch (Exception except)
             {

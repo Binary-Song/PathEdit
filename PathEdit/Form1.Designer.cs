@@ -60,7 +60,7 @@
             this.lst_usrVar.Location = new System.Drawing.Point(3, 3);
             this.lst_usrVar.Name = "lst_usrVar";
             this.lst_usrVar.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.lst_usrVar.Size = new System.Drawing.Size(871, 313);
+            this.lst_usrVar.Size = new System.Drawing.Size(943, 415);
             this.lst_usrVar.TabIndex = 1;
             // 
             // btn_remove
@@ -105,7 +105,7 @@
             this.tabpg_usr.Location = new System.Drawing.Point(4, 25);
             this.tabpg_usr.Name = "tabpg_usr";
             this.tabpg_usr.Padding = new System.Windows.Forms.Padding(3);
-            this.tabpg_usr.Size = new System.Drawing.Size(877, 319);
+            this.tabpg_usr.Size = new System.Drawing.Size(949, 421);
             this.tabpg_usr.TabIndex = 0;
             this.tabpg_usr.Text = "User";
             this.tabpg_usr.UseVisualStyleBackColor = true;
@@ -142,7 +142,7 @@
             this.Controls.Add(this.btn_remove);
             this.Controls.Add(this.btn_add);
             this.Name = "Form1";
-            this.Text = "Path Edit v1.1";
+            this.Text = "Path Edit v1.2";
             this.tab.ResumeLayout(false);
             this.tabpg_usr.ResumeLayout(false);
             this.tabpg_sys.ResumeLayout(false);
